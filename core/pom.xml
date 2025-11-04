@@ -32,18 +32,14 @@
   </reporting>
   <repositories>
     <repository>
-      <id>oauth</id>
-      <name>OAuth Repository</name>
-      <url>http://oauth.googlecode.com/svn/code/maven</url>
     </repository>
   </repositories>
   <distributionManagement>
     <repository>
-      <id>oauth-local</id>
+      <id>github</id>
       <name>Local OAuth Repository</name>
-      <url>file:../../maven</url>
+      <url>https://maven.pkg.github.com/UtrechtUniversity/numworx-vendor-oauth</url>
       <uniqueVersion>true</uniqueVersion>
     </repository>
-    <downloadUrl>http://oauth.googlecode.com/svn/code/maven</downloadUrl>
   </distributionManagement>
 </project>
